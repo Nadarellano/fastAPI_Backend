@@ -27,6 +27,11 @@ Comando para ejecutar aplicación
 uvicorn main:app --port 5000 --reload
 ```
 
+Para revisar documentación de la API
+```shell
+localhost:5000/docs
+```
+
 Comando para desactivar el entorno virtual
 ```shell
 deactivate
